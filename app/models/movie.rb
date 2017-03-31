@@ -23,9 +23,7 @@ class Movie
   end
 
   def self.viewers
-    arr = []
     self.all.collect {|movie| movie.viewer if viewer.rating == "rating"}
-    arr << 
   end
 
   def self.average_rating
